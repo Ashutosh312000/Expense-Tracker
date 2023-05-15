@@ -1,0 +1,266 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:center;
+    flex-flow: column wrap;
+    
+}
+
+#premiumbtn{
+    padding: 0.5% 2%;
+    border-radius: 15px;
+    background-color: #3d2060;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+
+
+#showleaderboardbtn{
+    display: none;
+    padding: 0.5% 2%;
+    border-radius: 15px;
+    background-color: #3d2060;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+
+#daytodayexpenses{
+    display: none;
+    padding: 0.5% 2%;
+    border-radius: 15px;
+    background-color: #3d2060;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15%;
+    right: 2%;
+    text-decoration-line: none;
+}
+
+#downloadbtn{
+    padding: 0.5% 2%;
+    border-radius: 15px;
+    background-color: #3d2060;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+}
+
+#pagination{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+
+  .pageBtn{
+    text-decoration: none;
+    color: white;
+    background-color: #36246e;
+    padding: 0.5rem;
+    border: 1px solid #00695c;
+    margin: 0 1rem;
+  }
+  
+  
+  #presentBtn,
+  .pageBtn:hover,
+  .pageBtn :active{
+    background: #a167a6;
+    color: white;
+  }
+
+  #label{
+    margin-bottom: 0px;
+    padding: 0px;
+    color: white;
+    opacity: 80%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #select{
+    margin: 1%;
+    display: inline-block;
+    border: 4px solid #503662;
+    background-color: transparent;
+    padding: 2px 0px;
+    border-radius: 6px;
+    color: white;
+    background: transparent;
+  }
+
+  .option{
+    color: white;
+    background-color: #3d2060;
+  }
+
+ 
+
+#leaderboard{
+    display: none;
+    flex-direction: column;
+    padding: 0.5% 2%;
+    border-radius: 15px;
+    background-color: #3d2060;
+    color: white;
+    border: 2px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+
+#leaderboard_ul{
+    list-style: none;
+}
+
+
+
+
+form{
+    margin-top: -90px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    
+}
+
+
+#expense{
+    color: white;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#onetap{
+    margin-left: 50%;
+    color: rgb(227, 188, 227);
+    opacity: 70%;
+    font-size: 220%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#know{
+    font-size: 140%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    opacity: 80%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main{
+    
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+}
+
+#formleft{
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+}
+
+#formright{
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+}
+
+.labels{
+    padding: 1%;
+    color: white;
+    opacity: 80%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textarea{
+    margin: 1%;
+    padding: 1%;
+    display: inline-block;
+    border: 4px solid #503662;
+    background-color: transparent;
+    padding: 2px 0px;
+    border-radius: 6px;
+    color: #996868;
+    color: white;
+}
+
+.opt{
+    color: white;
+    background-color: #3d2060;
+}
+
+
+#submitbtn{
+    margin: 3%;
+    padding: 1.5% 7%;
+    border-radius: 15px;
+    background-color: #3d2060;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    font-family: 'Times New Roman', Times, serif;  
+    cursor: pointer;
+
+}
+
+
+.newli{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    opacity: 80%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stylenewli{
+    border-radius: 15px;
+    background-color: #180035;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
